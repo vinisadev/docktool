@@ -164,7 +164,7 @@ Future improvements planned:
 - [ ] Multi-service docker-compose configurations
 - [ ] Configuration file support
 - [ ] Interactive mode
-- [ ] Environment variable detection
+- [x] Environment variable detection
 - [ ] Database service auto-configuration
 
 ## Acknowledgments
