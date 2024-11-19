@@ -17,6 +17,10 @@ DockTool is a command-line tool that automatically analyzes your project directo
 | Node.js | package.json | node:18-alpine | 3000 |
 | Python | requirements.txt/Pipfile | python:3.9-slim | 8000 |
 | Go | go.mod | golang:1.20-alpine | 8080 |
+| Java | pom.xml | eclipse-temurin:17-jdk-alpine | 8080 |
+| Java | fallback | eclipse-temurin:17-jdk-alpine | 8080 |
+| Ruby | Gemfile | ruby:3.2-alpine | 3000 |
+| PHP | composer.json / *.php | php:8.2-apache | 80 |
 | Generic | fallback | ubuntu:latest | none |
 
 ## Installation
@@ -155,7 +159,7 @@ If you encounter any issues:
 
 Future improvements planned:
 
-- [ ] Support for more project types (Java, Ruby, PHP)
+- [x] Support for more project types (Java, Ruby, PHP)
 - [ ] Custom template support
 - [ ] Multi-service docker-compose configurations
 - [ ] Configuration file support
