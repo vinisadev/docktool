@@ -54,7 +54,7 @@ go install
 
 Generate a Dockerfile for the current directory:
 ```bash
-./docktool
+./docktool .
 ```
 
 Generate a docker-compose.yml file:
